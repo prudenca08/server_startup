@@ -1,4 +1,4 @@
-name: Running Unit Test, Build Docker Image,  Push To Docker Hub and Deploy To EC2
+name: Build Docker Image
 
 on:
   pull_request:
@@ -9,11 +9,9 @@ on:
       - 'master'
 
 jobs:
-
   build-push-docker:
     name: "Build image and push to registry"
     runs-on: ubuntu-latest
-    needs: unit-test
     steps:
     - uses: actions/checkout@v2
     - name: build docker
