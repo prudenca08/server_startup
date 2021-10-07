@@ -1,7 +1,7 @@
 package campaign
 
 import (
-	"bwastartup/user"
+	"server_startup/user"
 	"time"
 
 	"github.com/leekchan/accounting"

@@ -1,8 +1,8 @@
 package transaction
 
 import (
-	"bwastartup/campaign"
-	"bwastartup/user"
+	"server_startup/campaign"
+	"server_startup/user"
 	"time"
 
 	"github.com/leekchan/accounting"

@@ -1,11 +1,11 @@
 package handler
 
 import (
-	"bwastartup/campaign"
-	"bwastartup/helper"
-	"bwastartup/user"
 	"fmt"
 	"net/http"
+	"server_startup/campaign"
+	"server_startup/helper"
+	"server_startup/user"
 	"strconv"
 
 	"github.com/gin-gonic/gin"
